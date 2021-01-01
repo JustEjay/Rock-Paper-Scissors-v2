@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+  body {
+    font-size: 62.5%;
+    background-color: 	#150b1c;
+    font-family: 'Roboto', sans-serif;
+    color: #fefefe;
+  }
+
+
+
+p {
+  font-size: 1rem;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 700;
+}
+
+.header h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.header p {
+  font-size: 2rem;
+  color: yellow;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  border: 1rem solid #fff;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color:  #150b1c;
+  margin: 0 1.5rem;
+  
+}
+.btn:hover{
+  cursor: pointer;
+}
+
+.btn i {
+  font-size: 15rem;
+  color: #fefefe;
+}
+
+
+.btn i:hover {
+  
+  transition: 0.70s;
+  transform: rotate(25deg);
+  
+}
+
+
+.btn i:active {
+  transition: 0.1s;
+  scale: .9;
+}
+
+.round-winner {
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: yellow;
+}
+
+#results {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+#results p {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.winner {
+  font-size: 3rem;
+  color: yellow;
+}
+
+.rematch button {
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
